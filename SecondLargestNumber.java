@@ -18,7 +18,7 @@ public class SecondLargestNumber {
             if (largestNumber < arr[i]) {
                 largestNumber = arr[i];
             }
-        }
+        }   
 
         for (int i = 0; i < arr.length; i++) {
             if (secondLargestNumber < arr[i] && arr[i] != largestNumber) {
