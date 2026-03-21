@@ -1,6 +1,6 @@
 public class SecondLargestNumber {
     public static void main(String[] args) {
-        int[] arr = { 35,35,35,35,35,35 };
+        int[] arr = { 35, 34 };
         // System.out.println(passTwoSolution(arr));
         System.out.println(passOneSolution(arr));
     }
@@ -32,21 +32,20 @@ public class SecondLargestNumber {
     // ONE PASS APPROACH
 
     static int passOneSolution(int[] arr) {
-        if (arr.length == 0)
+        if (arr.length < 2)
             return -1;
 
-        int largestNumber = -1, secondLargestNumber = -1;
+        int largestNumber = Integer.MIN_VALUE, secondLargestNumber = Integer.MIN_VALUE;
 
-        for (int i = 0; i < arr.length - 1; i++) {
-            if (largestNumber < arr[i]) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > largestNumber) {
+                secondLargestNumber = largestNumber;
                 largestNumber = arr[i];
-            }
-
-            if (secondLargestNumber < arr[i] && arr[i] != largestNumber) {
+            } else if (arr[i] > secondLargestNumber && arr[i] < largestNumber) {
                 secondLargestNumber = arr[i];
             }
         }
 
-        return secondLargestNumber;
+        return secondLargestNumber == Integer.MIN_VALUE ? -1 : secondLargestNumber;
     }
 }
