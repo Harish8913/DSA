@@ -6,7 +6,7 @@ public class TwoSumSorted {
         int leftPointer = 0;
         int rightPointer = arr.length - 1;
 
-        for (int i = 0; i < arr.length; i++) {
+        while (leftPointer < rightPointer) {
             if (arr[leftPointer] + arr[rightPointer] > t) {
                 rightPointer -= 1;
             } else if (arr[leftPointer] + arr[rightPointer] < t) {
