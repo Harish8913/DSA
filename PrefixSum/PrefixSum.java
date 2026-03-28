@@ -1,3 +1,4 @@
+package PrefixSum;
 import java.util.Arrays;
 
 public class PrefixSum {
