@@ -20,8 +20,6 @@ public class SortColors {
                 nums[i] = swapp;
 
                 leftZeroPointer++;
-
-                // System.out.println(Arrays.toString(nums));
             }
         }
 
