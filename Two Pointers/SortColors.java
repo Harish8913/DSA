@@ -10,7 +10,7 @@ public class SortColors {
         int leftZeroPointer = 0;
 
         for (int i = 1; i < nums.length; i++) {
-            int swapp = nums[leftZeroPointer];
+            int swapp = nums[leftZeroPointer];  
 
             if (nums[leftZeroPointer] == 0)
                 leftZeroPointer++;
