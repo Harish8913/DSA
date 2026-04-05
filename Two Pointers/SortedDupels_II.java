@@ -8,27 +8,13 @@ public class SortedDupels_II {
     }
 
     static int[] solution(int[] nums) {
-        int leftPtr = 0;
-        int occurence = 0;
-        int currNum = nums[0];
+        int l = 0;
 
-        for(int i = 0; i < nums.length; i++){
-            if(currNum == nums[i]){
-                occurence+=1;
-            }else{
-                currNum = nums[i];
-                occurence = 0;
-                leftPtr = i;
+        for (int num: nums) {
+            if(l < 2 || nums[l - 2] != num){
+                nums[l] = num;
+                l++;
             }
-
-            if(nums[i] != nums[leftPtr] && occurence > 2){
-                int swapp = nums[i];
-                nums[i] = nums[leftPtr];
-                nums[leftPtr] = swapp;
-
-                leftPtr++;
-            }
-
         }
 
         return nums;
