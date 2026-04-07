@@ -1,35 +1,32 @@
 import java.util.HashMap;
 
 public class LongestRepeatingString {
-    public static void main(String[] args){
-        String s = "dvdf";
+    public static void main(String[] args) {
+        String s = "pwwekw";
         lengthOfLongestSubstring(s);
     }
 
     public static int lengthOfLongestSubstring(String s) {
-        if(s.length() >= 1 && s.trim().length() <= 1) return 1;
-        if(s.trim().length() < 1) return s.length();
-        int end = 0;
-        int count = 0, maxCount = 0;
-        HashMap<Character, Integer> alphabets = new HashMap<Character, Integer>();
-        for (char c = 'a'; c <= 'z'; c++) {
-            alphabets.put(c, 0);
-        }
+        int l = 0,r = 0,maxLength = 0;
+        HashMap<Character, Integer> alpha = new HashMap<>();
+        for(char c = 'a'; c < 'z'; c++){alpha.put(c, 0);}
 
-        while(end < s.length()){
-            if(alphabets.get(s.charAt(end)) == 0){
-                count++;
-                alphabets.put(s.charAt(end), 1);
-                end++;
-                if(count > maxCount) maxCount = count;
+        while(r < s.length()){
+            if(alpha.get(s.charAt(r)) == 0){
+                alpha.put(s.charAt(r), 1);
+                r++;
             }else{
-                alphabets.replaceAll((key, value) -> 0);
-                count = 0;
+                while(alpha.get(s.charAt(l)) == 1){
+                    alpha.put(s.charAt(l), 0);
+                    l++;
+                }
             }
 
-            System.out.println(count + " " + maxCount + " " + end + " " + alphabets);
+            maxLength = Math.max(maxLength, r - l + 1);
         }
 
-        return maxCount;
+        System.out.println(maxLength);
+
+        return maxLength;
     }
 }
