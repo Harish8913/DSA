@@ -16,7 +16,7 @@ public class MaxConsectiveOnes {
 
             max = Math.max(max, curr);
         } 
-
+ 
         return max;
     }
 }
