@@ -16,4 +16,21 @@ public class MaxSubarray {
 
         return globalMax;
     }
+
+    static int my_Solution(int[] nums){
+        int currentMax = nums[0];
+        int globalMax = currentMax;
+
+        for(int num: nums){
+            if(currentMax > num + currentMax){
+                currentMax = num;
+            }else{
+                currentMax += num;
+            }
+
+            globalMax = Math.max(globalMax, currentMax);
+        }
+
+        return globalMax;
+    }
 }
