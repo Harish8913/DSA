@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class LongestRepeatingString {
     public static void main(String[] args) {
-        String s = "pwwekw";
+        String s = "agtdfaheg";
         lengthOfLongestSubstring(s);
     }
 
@@ -18,7 +18,7 @@ public class LongestRepeatingString {
             }else{
                 while(alpha.get(s.charAt(l)) == 1){
                     alpha.put(s.charAt(l), 0);
-                    l++;
+                    l = r;
                 }
             }
 
