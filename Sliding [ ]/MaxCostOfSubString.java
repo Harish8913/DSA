@@ -10,13 +10,19 @@ public class MaxCostOfSubString {
     }
 
     static int solution(String s, String chars, int vals[]){
-        int currentMax = 0;
-        int globalMax = 0;
+        int cost = 0;
+        int maxCost = 0;
         HashMap<Character, Integer> map = new HashMap<>();
+
+        for(int i = 0; i < vals.length; i++) map.put(chars.charAt(i), vals[i]);
         for(int i = 0; i < s.length(); i++){
-            
+            if(!map.containsKey(s.charAt(i))) map.put(s.charAt(i), i + 1);
+
+            cost += map.get(s.charAt(i));
+            maxCost = cost > maxCost ? cost : maxCost;
+            cost = cost <= 0 ? 0 : cost;
         }
 
-        return globalMax;
+        return maxCost;
     }
 }
