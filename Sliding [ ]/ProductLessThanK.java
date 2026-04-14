@@ -20,7 +20,7 @@ public class ProductLessThanK {
             }else{
                 count++;
             }
-        }
+        } 
 
         return count;
     }
