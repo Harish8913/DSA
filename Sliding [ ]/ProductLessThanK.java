@@ -8,10 +8,10 @@ public class ProductLessThanK {
     public static int solution(int[] nums, int k) {
         int count = 0;
         int product = 1;
-        int left = 0;
+        int left = 0; 
 
         for (int r = 0; r < nums.length; r++) {
-            product *= nums[r];
+            product *= nums[r]; 
 
             while (product >= k && left <= r) {
                 product /= nums[left];
