@@ -18,7 +18,7 @@ public class ProductLessThanK {
                 left++;
             }
 
-            count += (r - left) + 1; 
+            count += (r - left) + 1;  
         }
 
         return count;
