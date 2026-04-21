@@ -15,7 +15,7 @@ public class ProductLessThanK {
 
             while (product >= k && left <= r) {
                 product /= nums[left];
-                left++;
+                left++; 
             }
 
             count += (r - left) + 1;  
