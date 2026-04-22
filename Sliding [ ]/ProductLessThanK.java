@@ -13,7 +13,7 @@ public class ProductLessThanK {
         for (int r = 0; r < nums.length; r++) {
             product *= nums[r]; 
 
-            while (product >= k && left <= r) {
+            while (product >= k && left <= r) { 
                 product /= nums[left];
                 left++; 
             }
