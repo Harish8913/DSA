@@ -13,7 +13,7 @@ public class ReverseInGroups {
         int rightPointer = k - 1;
 
         for (int i = 0; i < arr.length; i++) { 
-            int lipointer = leftPointer;
+            int lipointer = leftPointer; 
             int ripointer = rightPointer;
 
             if (rightPointer > arr.length - 1)
