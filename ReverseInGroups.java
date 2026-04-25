@@ -11,7 +11,7 @@ public class ReverseInGroups {
     static int[] test(int[] arr, int k) {
         int leftPointer = 0;
         int rightPointer = k - 1;
-
+ 
         for (int i = 0; i < arr.length; i++) { 
             int lipointer = leftPointer; 
             int ripointer = rightPointer;
