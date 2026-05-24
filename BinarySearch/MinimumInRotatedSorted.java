@@ -4,7 +4,7 @@ public class MinimumInRotatedSorted {
     public static void main(String[] args){
         int[] nums = { 3,3,1,3 };
         findMin(nums);
-    }
+    } 
 
     public static int findMin(int[] nums) {
         int high = nums.length - 1;
