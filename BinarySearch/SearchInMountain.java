@@ -31,24 +31,23 @@ public class SearchInMountain {
         int high = mountainArr.length() - 1;
         int peak = 0;
 
-        while (low < high) {
+        while(low < high){
             int mid = low + (high - low) / 2;
-
+            
             int m1 = mountainArr.get(mid);
             int m2 = mountainArr.get(mid - 1);
             int m3 = mountainArr.get(mid + 1);
-            if (m1 < m2) {
+            if(m1 < m2){
                 peak = mid - 1;
                 high = mid;
-            } else if (m1 < m3) {
+            }else if(m1 < m3){
                 peak = mid + 1;
                 low = mid + 1;
-            } else {
+            }else{
                 peak = mid;
                 break;
             }
         }
-
 
         int l1 = 0;
         int h1 = peak;
@@ -79,8 +78,8 @@ public class SearchInMountain {
                 break;
             }
 
-            if (v2 > target) h2 = m2 - 1;
-            else l2 = m2 + 1;
+            if (v2 > target) l2 = m2 + 1;
+            else h2 = m2 - 1;
         }
 
         return ans1 < 0 ? ans2 : ans1;
