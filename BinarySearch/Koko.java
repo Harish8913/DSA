@@ -16,9 +16,8 @@ public class Koko {
             high = Math.max(pile, high);
         }
 
-
         while(low <= high){
-            int totalHrs = 0;
+            long totalHrs = 0;
             int speed = low + (high - low) / 2;
             for(int pile: piles){
                 double hrsTook = Math.ceil((double) pile/speed);
