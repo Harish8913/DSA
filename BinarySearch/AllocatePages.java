@@ -17,7 +17,7 @@ public class AllocatePages {
         int high = rangeValues[1];
         int ans = 0;
 
-        while (low <= high) {
+        while (low <= high) { 
             int mid = low + (high - low) / 2;
 
             if (canDistributePages(arr, mid, k)) {
