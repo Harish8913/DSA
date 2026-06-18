@@ -12,7 +12,7 @@ public class AllocatePages {
         int[] rangeValues = range(arr);
         if (k > arr.length)
             return -1;
-
+ 
         int low = rangeValues[0];
         int high = rangeValues[1];
         int ans = 0;
