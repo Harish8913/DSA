@@ -21,7 +21,7 @@ public class MaxCostOfSubString {
             if(!map.containsKey(s.charAt(i))) map.put(s.charAt(i), code + 1);
 
             cost += map.get(s.charAt(i));
-            maxCost = cost > maxCost ? cost : maxCost;
+            maxCost = cost > maxCost ? cost : maxCost; 
             cost = cost <= 0 ? 0 : cost;
         }
 
