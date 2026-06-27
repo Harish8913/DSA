@@ -3,7 +3,7 @@ public class SlidingWTemplate {
         int[] nums = {  };
 
     }
-
+ 
     public static int slide(int[] nums, int k){
         return 0;
     }
