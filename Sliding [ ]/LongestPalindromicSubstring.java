@@ -5,7 +5,7 @@ public class LongestPalindromicSubstring {
     }
 
     public static String longestPalindromicString(String str) {
-        
+         
         return "Hello User";
     }
 }
