@@ -1,0 +1,252 @@
+================================================================================
+                    LEETCODE MASTER CHECKLIST: ARRAY PATTERNS
+                         (200 Core Array Questions)
+================================================================================
+
+--------------------------------------------------------------------------------
+1. TWO POINTERS (40 Questions)
+--------------------------------------------------------------------------------
+Used for sorted arrays, searching pairs, in-place modifications, and symmetric 
+string checks.
+
+[ ] Easy   | LC 125  - Valid Palindrome
+[ ] Easy   | LC 344  - Reverse String
+[ ] Easy   | LC 345  - Reverse Vowels of a String
+[ ] Easy   | LC 283  - Move Zeroes
+[ ] Easy   | LC 26   - Remove Duplicates from Sorted Array
+[ ] Easy   | LC 27   - Remove Element
+[ ] Easy   | LC 167  - Two Sum II - Input Array Is Sorted
+[ ] Easy   | LC 977  - Squares of a Sorted Array
+[ ] Easy   | LC 88   - Merge Sorted Array
+[ ] Easy   | LC 350  - Intersection of Two Arrays II
+[ ] Easy   | LC 922  - Sort Array By Parity II
+[ ] Easy   | LC 2460 - Apply Operations to an Array
+
+[ ] Medium | LC 15   - 3Sum
+[ ] Medium | LC 16   - 3Sum Closest
+[ ] Medium | LC 259  - 3Sum Smaller (Premium)
+[ ] Medium | LC 18   - 4Sum
+[ ] Medium | LC 11   - Container With Most Water
+[ ] Medium | LC 75   - Sort Colors
+[ ] Medium | LC 80   - Remove Duplicates from Sorted Array II
+[ ] Medium | LC 845  - Longest Mountain in Array
+[ ] Medium | LC 611  - Valid Triangle Number
+[ ] Medium | LC 189  - Rotate Array
+[ ] Medium | LC 986  - Interval List Intersections
+[ ] Medium | LC 881  - Boats to Save People
+[ ] Medium | LC 1570 - Dot Product of Two Sparse Vectors (Premium)
+[ ] Medium | LC 905  - Sort Array By Parity
+[ ] Medium | LC 1750 - Minimum Length of String After Deleting Similar Ends
+[ ] Medium | LC 2108 - Find First Palindromic String in the Array
+[ ] Medium | LC 2149 - Rearrange Array Elements by Sign
+[ ] Medium | LC 2337 - Move Pieces to Obtain a String
+[ ] Medium | LC 2410 - Maximum Matching of Players With Trainers
+[ ] Medium | LC 1861 - Rotating the Box
+[ ] Medium | LC 1471 - The k Strongest Values in an Array
+[ ] Medium | LC 1616 - Split Two Strings to Make Palindrome
+
+[ ] Hard   | LC 42   - Trapping Rain Water
+[ ] Hard   | LC 1579 - Remove Max Number of Edges to Keep Graph Fully Traversable
+[ ] Hard   | LC 1498 - Number of Subsequences That Satisfy the Given Sum Condition
+[ ] Hard   | LC 1793 - Maximum Score of a Good Subarray
+[ ] Hard   | LC 827  - Making A Large Island
+[ ] Hard   | LC 2444 - Count Subarrays With Fixed Bounds
+
+
+--------------------------------------------------------------------------------
+2. SLIDING WINDOW (40 Questions)
+--------------------------------------------------------------------------------
+Used for contiguous subarrays or substrings with specific constraints.
+
+[ ] Easy   | LC 121  - Best Time to Buy and Sell Stock
+[ ] Easy   | LC 643  - Maximum Average Subarray I
+[ ] Easy   | LC 219  - Contains Duplicate II
+[ ] Easy   | LC 1876 - Substrings of Size Three with Distinct Characters
+[ ] Easy   | LC 2269 - Find the K-Beauty of a Number
+[ ] Easy   | LC 1984 - Minimum Difference Between Highest and Lowest of K Scores
+[ ] Easy   | LC 2379 - Minimum Recolors to Get K Consecutive Black Blocks
+[ ] Easy   | LC 1176 - Diet Plan Performance (Premium)
+[ ] Easy   | LC 1652 - Defuse the Bomb
+[ ] Easy   | LC 2765 - Longest Alternating Subarray
+
+[ ] Medium | LC 3    - Longest Substring Without Repeating Characters
+[ ] Medium | LC 1004 - Max Consecutive Ones III
+[ ] Medium | LC 424  - Longest Repeating Character Replacement
+[ ] Medium | LC 209  - Minimum Size Subarray Sum
+[ ] Medium | LC 567  - Permutation in String
+[ ] Medium | LC 438  - Find All Anagrams in a String
+[ ] Medium | LC 904  - Fruit Into Baskets
+[ ] Medium | LC 1358 - Number of Substrings Containing All Three Characters
+[ ] Medium | LC 1423 - Maximum Points You Can Obtain from Cards
+[ ] Medium | LC 1208 - Get Equal Substrings Within Budget
+[ ] Medium | LC 1052 - Grumpy Bookstore Owner
+[ ] Medium | LC 1456 - Maximum Number of Vowels in a Substring of Given Length
+[ ] Medium | LC 2461 - Maximum Sum of Distinct Subarrays With Length K
+[ ] Medium | LC 1493 - Longest Subarray of 1's After Deleting One Element
+[ ] Medium | LC 2024 - Maximize the Confusion of an Exam
+[ ] Medium | LC 1838 - Frequency of the Most Frequent Element
+[ ] Medium | LC 2090 - K Radius Subarray Averages
+[ ] Medium | LC 2134 - Minimum Swaps to Group All 1's Together II
+[ ] Medium | LC 2302 - Count Subarrays With Score Less Than K
+[ ] Medium | LC 2799 - Count Complete Subarrays in an Array
+[ ] Medium | LC 2841 - Maximum Sum of Almost Unique Subarrays
+[ ] Medium | LC 2958 - Length of Longest Subarray With at Most K Frequency
+
+[ ] Hard   | LC 76   - Minimum Window Substring
+[ ] Hard   | LC 239  - Sliding Window Maximum
+[ ] Hard   | LC 992  - Subarrays with K Different Integers
+[ ] Hard   | LC 30   - Substring with Concatenation of All Words
+[ ] Hard   | LC 1248 - Count Number of Nice Subarrays
+[ ] Hard   | LC 2962 - Count Subarrays Where Max Element Appears at Least K Times
+[ ] Hard   | LC 480  - Sliding Window Median
+[ ] Hard   | LC 2537 - Count the Number of Good Subarrays
+
+
+--------------------------------------------------------------------------------
+3. PREFIX SUM & HASH MAPS (40 Questions)
+--------------------------------------------------------------------------------
+Used for range sum queries, counting target subarrays, and handling negative 
+integers.
+
+[ ] Easy   | LC 1480 - Running Sum of 1d Array
+[ ] Easy   | LC 724  - Find Pivot Index
+[ ] Easy   | LC 1991 - Find the Middle Index in Array
+[ ] Easy   | LC 1732 - Find the Highest Altitude
+[ ] Easy   | LC 303  - Range Sum Query - Immutable
+[ ] Easy   | LC 1413 - Minimum Value to Get Positive Step by Step Sum
+[ ] Easy   | LC 1588 - Sum of All Odd Length Subarrays
+[ ] Easy   | LC 2485 - Find the Pivot Integer
+[ ] Easy   | LC 2574 - Left and Right Sum Differences
+[ ] Easy   | LC 1893 - Check if All the Integers in a Range Are Covered
+
+[ ] Medium | LC 560  - Subarray Sum Equals K
+[ ] Medium | LC 525  - Contiguous Array
+[ ] Medium | LC 238  - Product of Array Except Self
+[ ] Medium | LC 974  - Subarray Sums Divisible by K
+[ ] Medium | LC 523  - Continuous Subarray Sum
+[ ] Medium | LC 304  - Range Sum Query 2D - Immutable
+[ ] Medium | LC 1314 - Matrix Block Sum
+[ ] Medium | LC 2270 - Number of Ways to Split Array
+[ ] Medium | LC 1524 - Number of Sub-arrays With Odd Sum
+[ ] Medium | LC 1685 - Sum of Absolute Differences in a Sorted Array
+[ ] Medium | LC 1109 - Corporate Flight Bookings
+[ ] Medium | LC 370  - Range Addition (Premium)
+[ ] Medium | LC 1094 - Car Pooling
+[ ] Medium | LC 1894 - Find the Student that Will Replace the Chalk
+[ ] Medium | LC 2055 - Plates Between Candles
+[ ] Medium | LC 2389 - Longest Subsequence With Limited Sum
+[ ] Medium | LC 1658 - Minimum Operations to Reduce X to Zero
+[ ] Medium | LC 1371 - Find the Longest Substring Containing Vowels in Even Counts
+[ ] Medium | LC 1546 - Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
+[ ] Medium | LC 2483 - Minimum Penalty for a Shop
+[ ] Medium | LC 2256 - Minimum Average Difference
+[ ] Medium | LC 1422 - Maximum Score After Splitting a String
+
+[ ] Hard   | LC 1074 - Number of Submatrices That Sum to Target
+[ ] Hard   | LC 363  - Max Sum of Rectangle No Larger Than K
+[ ] Hard   | LC 862  - Shortest Subarray with Sum at Least K
+[ ] Hard   | LC 1171 - Remove Zero Sum Consecutive Nodes from Linked List
+[ ] Hard   | LC 1915 - Number of Wonderful Substrings
+[ ] Hard   | LC 1590 - Make Sum Divisible by P
+[ ] Hard   | LC 2281 - Sum of Total Strength of Wizards
+[ ] Hard   | LC 2218 - Maximum Value of K Coins From Piles
+
+
+--------------------------------------------------------------------------------
+4. MONOTONIC STACK & QUEUE (40 Questions)
+--------------------------------------------------------------------------------
+Used for Next/Previous Greater or Smaller Element queries and range extrema tracking.
+
+[ ] Easy   | LC 496  - Next Greater Element I
+[ ] Easy   | LC 1475 - Final Prices With a Special Discount in a Shop
+[ ] Easy   | LC 1081 - Smallest Subsequence of Distinct Characters
+[ ] Easy   | LC 1544 - Make The String Great
+[ ] Easy   | LC 1047 - Remove All Adjacent Duplicates In String
+[ ] Easy   | LC 2696 - Minimum String Length After Removing Substrings
+[ ] Easy   | LC 1006 - Clumsy Factorial
+[ ] Easy   | LC 844  - Backspace String Compare
+
+[ ] Medium | LC 739  - Daily Temperatures
+[ ] Medium | LC 503  - Next Greater Element II
+[ ] Medium | LC 901  - Online Stock Span
+[ ] Medium | LC 402  - Remove K Digits
+[ ] Medium | LC 316  - Remove Duplicate Letters
+[ ] Medium | LC 853  - Car Fleet
+[ ] Medium | LC 962  - Maximum Width Ramp
+[ ] Medium | LC 1019 - Next Greater Node In Linked List
+[ ] Medium | LC 769  - Max Chunks To Make Sorted
+[ ] Medium | LC 456  - 132 Pattern
+[ ] Medium | LC 1673 - Find the Most Competitive Subsequence
+[ ] Medium | LC 907  - Sum of Subarray Minimums
+[ ] Medium | LC 1856 - Maximum Subarray Min-Product
+[ ] Medium | LC 2104 - Sum of Subarray Ranges
+[ ] Medium | LC 1762 - Buildings With an Ocean View (Premium)
+[ ] Medium | LC 1209 - Remove All Adjacent Duplicates in String II
+[ ] Medium | LC 1944 - Number of Visible People in a Queue
+[ ] Medium | LC 2289 - Steps to Make Array Non-decreasing
+[ ] Medium | LC 2454 - Next Greater Element IV
+[ ] Medium | LC 2866 - Beautiful Towers II
+[ ] Medium | LC 1124 - Longest Well-Performing Interval
+[ ] Medium | LC 1776 - Car Fleet II
+[ ] Medium | LC 2334 - Subarray With Elements Greater Than Variation Threshold
+[ ] Medium | LC 1950 - Maximum of Minimum Values in All Subarrays (Premium)
+
+[ ] Hard   | LC 84   - Largest Rectangle in Histogram
+[ ] Hard   | LC 85   - Maximal Rectangle
+[ ] Hard   | LC 862  - Shortest Subarray with Sum at Least K
+[ ] Hard   | LC 239  - Sliding Window Maximum
+[ ] Hard   | LC 1425 - Constrained Subsequence Sum
+[ ] Hard   | LC 2104 - Sum of Subarray Ranges
+[ ] Hard   | LC 2281 - Sum of Total Strength of Wizards
+[ ] Hard   | LC 1504 - Count Submatrices With All Ones
+
+
+--------------------------------------------------------------------------------
+5. BINARY SEARCH (40 Questions)
+--------------------------------------------------------------------------------
+Used for sorted arrays, rotated arrays, and finding optimal values via 
+Binary Search on Answer.
+
+[ ] Easy   | LC 704  - Binary Search
+[ ] Easy   | LC 35   - Search Insert Position
+[ ] Easy   | LC 374  - Guess Number Higher or Lower
+[ ] Easy   | LC 278  - First Bad Version
+[ ] Easy   | LC 367  - Valid Perfect Square
+[ ] Easy   | LC 69   - Sqrt(x)
+[ ] Easy   | LC 744  - Find Smallest Letter Greater Than Target
+[ ] Easy   | LC 1351 - Count Negative Numbers in a Sorted Matrix
+[ ] Easy   | LC 2529 - Maximum Count of Positive Integer and Negative Integer
+[ ] Easy   | LC 2089 - Find Target Indices After Sorting Array
+
+[ ] Medium | LC 33   - Search in Rotated Sorted Array
+[ ] Medium | LC 81   - Search in Rotated Sorted Array II
+[ ] Medium | LC 153  - Find Minimum in Rotated Sorted Array
+[ ] Medium | LC 154  - Find Minimum in Rotated Sorted Array II
+[ ] Medium | LC 34   - Find First and Last Position of Element in Sorted Array
+[ ] Medium | LC 74   - Search a 2D Matrix
+[ ] Medium | LC 240  - Search a 2D Matrix II
+[ ] Medium | LC 162  - Find Peak Element
+[ ] Medium | LC 852  - Peak Index in a Mountain Array
+[ ] Medium | LC 875  - Koko Eating Bananas
+[ ] Medium | LC 1011 - Capacity To Ship Packages Within D Days
+[ ] Medium | LC 1283 - Find the Smallest Divisor Given a Threshold
+[ ] Medium | LC 1482 - Minimum Number of Days to Make m Bouquets
+[ ] Medium | LC 1552 - Magnetic Force Between Two Balls
+[ ] Medium | LC 1870 - Minimum Speed to Arrive on Time
+[ ] Medium | LC 2226 - Maximum Candies Allocated to K Children
+[ ] Medium | LC 2064 - Minimized Maximum of Products Distributed to Any Store
+[ ] Medium | LC 540  - Single Element in a Sorted Array
+[ ] Medium | LC 658  - Find K Closest Elements
+[ ] Medium | LC 2300 - Successful Pairs of Spells and Potions
+[ ] Medium | LC 2563 - Count the Number of Fair Pairs
+[ ] Medium | LC 1802 - Maximum Value at a Given Index in a Bounded Array
+
+[ ] Hard   | LC 4    - Median of Two Sorted Arrays
+[ ] Hard   | LC 410  - Split Array Largest Sum
+[ ] Hard   | LC 719  - Find K-th Smallest Pair Distance
+[ ] Hard   | LC 668  - Kth Smallest Number in Multiplication Table
+[ ] Hard   | LC 774  - Minimize Max Distance to Gas Station (Premium)
+[ ] Hard   | LC 1923 - Longest Common Subpath
+[ ] Hard   | LC 2040 - Kth Smallest Product of Two Sorted Arrays
+[ ] Hard   | LC 2234 - Maximum Total Beauty of the Gardens
+================================================================================

@@ -8,18 +8,18 @@ public class LongestCommonPrefix {
 
     public static String longestCommonPrefix(String[] strs) {
         String commonPrefix = "";
+        String comparisionString = strs[0];
         for (int i = 1; i < strs.length; i++) {
-            String s = strs[0];
             String iterationString = strs[i];
-            if (s.length() < strs[i].length()) {
-                iterationString = s;
-                s = strs[i];
+            if (comparisionString.length() < iterationString.length()) {
+                iterationString = comparisionString;
+                comparisionString = strs[i];
             }
 
             for (int j = 0; j < iterationString.length(); j++) {
-                if (s.charAt(j) == iterationString.charAt(j)) {
-                    commonPrefix += s.charAt(j);
-                    
+                if (comparisionString.charAt(j) == iterationString.charAt(j)) {
+                    commonPrefix += iterationString.charAt(j);
+                    comparisionString = commonPrefix;
                 }
             }
         }
