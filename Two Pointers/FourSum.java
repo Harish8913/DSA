@@ -10,7 +10,7 @@ public class FourSum {
     }
  
     public static List<List<Integer>> fourSum(int[] nums, int target) {
-        int n = nums.length;
+        int n = nums.length; 
         Arrays.sort(nums);
         List<List<Integer>> result = new ArrayList<>();
         for (int i = 0; i < n - 3; i++) {
