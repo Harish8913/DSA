@@ -4,17 +4,33 @@ public class LongestMountainArray {
         longestMountain(nums);
     }
 
-    public static int longestMountain(int[] nums){
-        if(nums.length < 3) return 0;
+    public static int longestMountain(int[] arr){
+        if(arr.length < 3) return 0;
 
+        int count = 1;
         int left = 0;
-        int right = nums.length - 1;
+        int right = 0;
+        int maximum = 0;
 
-        while(left < right && nums[left] >= nums[left + 1]) left++;
-        while(left < right && nums[right] >= nums[right - 1]) right--;
+        for(int i = 1; i <= arr.length - 2; i++){
+            if(arr[i - 1] < arr[i] && arr[i + 1] < arr[i]){
+                left = i - 1;
+                while(left >= 0 && arr[left] < arr[left + 1]){
+                    count++;
+                    left--;
+                }
 
-        System.out.println(left + " " + right);
+                right = i + 1;
+                while(right < arr.length && arr[right] < arr[right - 1]){
+                    count++;
+                    right++;
+                }
 
-        return right == left ? 0 : right - left + 1;
+                maximum = Math.max(maximum, count);
+                count = 1;
+            }
+        }
+
+        return maximum;
     }
 }
